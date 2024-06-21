@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    text-align: center;
+}
+
+/* Header Styling */
+header {
+    background-color: #255945;
+    padding: 10px 0;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Main Section Styling */
+main {
+    padding: 20px;
+}
+
+/* Intro Section Styling */
+.intro {
+    margin: 20px 0;
+}
+
+.intro h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.intro img {
+    width: 200px;
+    height: auto;
+    margin: 20px 0;
+    border: 5px solid #333;
+    padding: 10px;
+    background-color: #ddd;
+}
+
+.intro p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* Contact Section Styling */
+.contact {
+    background-color: #dabfad;
+    padding: 20px;
+    border-top: 1px solid #b3a394;
+    border-bottom: 1px solid #b3a394;
+}
+
+.contact h2 {
+    margin-bottom: 20px;
+}
+
+.contact form {
+    display: inline-block;
+    text-align: left;
+}
+
+.contact label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.contact input {
+    width: 200px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #b3a394;
+}
+
+.contact button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background-color: #555;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #255945;
+    padding: 10px 0;
+    color: white;
+    font-size: 0.8em;
+}
