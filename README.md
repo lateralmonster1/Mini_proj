@@ -1,2 +1,2 @@
 # Mini_proj
-Creating a page with css
+Creating a page with html and css
